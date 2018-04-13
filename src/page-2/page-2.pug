@@ -1,0 +1,14 @@
+extends ../shared/layout/layout.pug
+
+block vars
+    - var cssLink = "page-2";
+
+block content
+    include ../shared/navbar/navbar.pug
+    .container  
+        .row
+            include components/about/about.pug
+            include components/carousel/carousel.pug
+        .row
+            include ../shared/calendar/calendar.pug  
+            include components/comments/comments.pug

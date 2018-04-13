@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #161616;
+  padding-top: 2%;
+  .logo {
+    height: 80px;
+    padding-top: 1%;
+  }
+  .brand {
+    font-size: 40px;
+    font-weight: bold;
+    color: #af0c00;
+  }
+  .naviki {
+    font-size: 20px;
+    font-weight: bold;
+
+    &:hover {
+      color: #af0c00;
+    }
+  }
+}

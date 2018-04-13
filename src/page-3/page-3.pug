@@ -1,0 +1,15 @@
+extends ../shared/layout/layout.pug
+
+block vars
+    - var cssLink = "page-3";
+
+block content
+    include ../shared/navbar/navbar.pug
+    .container
+        .row
+            include ../shared/calendar/calendar.pug  
+            include ./components/brone/brone.pug
+        .row
+            include ./components/gallery/gallery.pug
+            include ./components/halls/halls.pug
+                
